@@ -1,21 +1,31 @@
-    body {
-            min-height: 100vh; /* Ensure the body takes up at least the height of the viewport. */
-            display: fixed;
-            flex-direction: column;
-        }
- .main-content {
-            /* Styles for the main content area */
-            flex: 1; /* Allow the main content to expand and fill available space */
+tml {
+            position: relative;
+            min-height: 100%;
         }
 
-ul {
-    margin: 0px;
-    padding: 0px;
-}
-.footer-section {
-  background: #151414;
-  position: relative;
-}
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .pageContentWrapper {
+            margin-bottom: 100px; /* Height of footer */
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer-section {
+            background: #151414;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+        }
+
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
